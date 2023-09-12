@@ -5,7 +5,7 @@ sealed class TimerState extends Equatable {
   final int duration;
 
   @override
-  List<Object> get props => [];
+  List<Object> get props => [duration];
 }
 
 final class TimerInitial extends TimerState {
